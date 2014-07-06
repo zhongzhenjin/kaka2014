@@ -18,6 +18,7 @@ public class HelloAndroidActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 		Log.i(TAG, "onCreate");
+        System.out.print("修改文件");
         setContentView(R.layout.main);
     }
 
